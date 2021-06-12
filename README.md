@@ -10,7 +10,7 @@
 
 ### Project Description/Outline
 
-The scope of this project is to extract data from different data sources, clean and transform them and load them into a database in order to solve specific queries. This project was developed using Python, Pandas, MongoDB and PyMongo. Data was retrieved from two sources: [dataworld.com](https://data.world/sumitrock/videogames) for Console games and [kaggle.com](https://www.kaggle.com/nikdavis/steam-store-games) for Steam games.
+The scope of this project was to extract data from different data sources, clean and transform them and load them into a database in order to solve specific queries. This project was developed using Python, Pandas, MongoDB and PyMongo. Data was retrieved from two sources: [dataworld.com](https://data.world/sumitrock/videogames) for Console videogames and [kaggle.com](https://www.kaggle.com/nikdavis/steam-store-games) for Steam videogames.
 
 ### Executive Report
 
