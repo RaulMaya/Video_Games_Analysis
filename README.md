@@ -36,14 +36,18 @@ After exploring raw data, datasets were cleaned and formatted (select relevant f
 | ![Steam](images/Steam_Clean.png) |
 
 #### 3. Load Data
-The team decided to use a NoSQL Database (MongoDB) as the best fit in order to solve queries since the data gathered had relevant fields with mixed types (int, NaN, str) ; the team felt it was more safe to use Mongo’s JSON format to store the data. 
-
-There was no need to use mapping of application objects to database objects in  MongoDB. And the document query language supported by mongo is simpler compared to SQL queries. 
-
-
-
+The team decided to use a NoSQL Database (MongoDB) as the best fit since the data gathered had relevant fields with mixed types (int, NaN, str). Both datasets were loaded in the same collection in order to solve queries.
 
 | MongoDB `united` collection |
 | --- |
 | ![Console](images/MongoDB.png) |
+
+### Example Query
+**Number of games for preferred platforms, grouped by genre**
+
+* A query was built using PyMongo to find all the games for a defined set of preferred platforms: (PS4, Xbox One & Steam).
+* The query results were stored in a DataFrame.
+* Considering PS4 and Xbox One release dates, the DataFrame was filtered for 
+
+
 
