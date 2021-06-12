@@ -40,14 +40,17 @@ The team decided to use a NoSQL Database (MongoDB) as the best fit since the dat
 
 | MongoDB `united` collection |
 | --- |
-| ![Console](images/MongoDB.png) |
+| ![MongoDB](images/MongoDB.png) |
 
 ### Example Query
 **Number of games for preferred platforms, grouped by genre**
 
 * A query was built using PyMongo to find all the games for a defined set of preferred platforms: (PS4, Xbox One & Steam).
 * The query results were stored in a DataFrame.
-* Considering PS4 and Xbox One release dates, the DataFrame was filtered for 
+* Considering PS4 and Xbox One release dates, the DataFrame was filtered for games released in the 2014-2016 period.
+* Finally, the number of games for each of the defined platforms by genre was obtained using `groupby`.
 
-
+| Example Query (PS4 slice) |
+| --- |
+| ![Query Result](images/Example_PS4.png) |
 
