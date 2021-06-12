@@ -14,7 +14,7 @@ The scope of this project was to extract data from different data sources, clean
 
 ### Executive Report
 
-Executive report for this project can be found [here](https://docs.google.com/document/d/1nvgadoA2MatHyb9iYDkm12OfAQX9vca38SyVaIQAQ4U/edit?usp=sharing).
+Executive report for this project can be found [**here**](https://docs.google.com/document/d/1nvgadoA2MatHyb9iYDkm12OfAQX9vca38SyVaIQAQ4U/edit?usp=sharing).
 
 
 ### WorkFlow
