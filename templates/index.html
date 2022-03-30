@@ -1,1 +1,24 @@
-<p>Video Games</p>
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Video Games</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1>Video Games</h1>
+    <div class='container'>
+        <di id="chart1"></di>
+    </div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        var graph1 = {{ df | safe}};
+        Plotly.plot("chart1", graph1,{});
+    </script>
+</body>
+</html>
