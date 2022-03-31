@@ -28,7 +28,8 @@ def home():
     
     results = db.united.find(query)
     preferred_platforms = pd.DataFrame(results)
-    preferred_platforms.head(10)
+    platforms = preferred_platforms['platform'].unique()
+    print(platforms)
 
     fig = px.histogram(preferred_platforms[:15], x="name", y="user_score",
              color='platform', barmode='group',
@@ -36,7 +37,7 @@ def home():
     
     graph = json.dumps(fig, cls=plotly.utils.PlotlyJSONEncoder)
 
-    return render_template("/index.html", df = graph)
+    return render_template("/index.html", df = graph, platforms = platforms)
 
 ## RUN FLASK APP
 if __name__ == "__main__":
